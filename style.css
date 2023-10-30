@@ -17,6 +17,61 @@ html {
     margin-right: 20px;
 }
 
+body {
+    width: 100vw;
+}
+
+main {
+    width: 85vw;
+    margin: 20px auto;
+    background-color: #ede9e9;
+}
+
+.main-header{
+    text-align: center;
+    color: #19952b;
+}
+
+.section {
+    border: 2px solid #022809;
+    background-color: #eceaea;
+    margin-bottom: 5px;
+}
+.section__header{
+ text-align: center;
+
+}
+.section__image{
+    width:400px;
+    display: block;
+    margin: 0 auto;
+}
+.section__description{
+    text-align: center;
+}
+.article {
+    display: inline-block;
+    width:25%;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #f58d8d;
+}
+
+.article__header {
+    margin: 0;
+}
+
+.article__description {
+
+}
+
+.footer {
+    width: 100%;
+    padding: 5px;
+    background-color: #0b9a20;
+    color: white;
+}
+
 h3 {
     background-color: #055c12;
 }

@@ -1,0 +1,1 @@
+console.log(`testuje uruchamianie js z konsoli za pomocą noda`)

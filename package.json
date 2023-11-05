@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/krzysztof1993/hompage-modul2/issues"
   },
-  "homepage": "https://github.com/krzysztof1993/hompage-modul2#readme"
+  "homepage": "https://github.com/krzysztof1993/hompage-modul2#readme",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
 }
